@@ -1,0 +1,25 @@
+{
+  "name": "28_auth0_sso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startopenid": "node tryout1/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10xtarun/auth0_sso_sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/10xtarun/auth0_sso_sample/issues"
+  },
+  "homepage": "https://github.com/10xtarun/auth0_sso_sample#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.3.0"
+  }
+}
